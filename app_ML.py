@@ -121,7 +121,7 @@ if choice == 'Visualização':
 
     st.write('## Curva ROC-AUC')
     fig_auc = plot_model(modelo, plot='auc', display_format="streamlit", save=True)
-    st.image('auc.png')
+    st.image('AUC.png')
     st.info('''Curva ROC-AUC é uma importante medida de desempenho do modelo,
             variando de 0 e 1.''')
 
